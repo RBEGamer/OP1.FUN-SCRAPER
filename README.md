@@ -13,7 +13,7 @@ The google chrome headless modes makes it very easy with the login system and th
 * install python
 * install google chrome
 * install the google chrome [ChromeDriver](http://chromedriver.chromium.org/getting-started)
-* install selenium `pip install selenium`
+* install [selenium](https://github.com/SeleniumHQ/selenium) `pip install selenium`
 
 ## SET USERNAME/PASSWORD
 Create a account at the op1.fun site and change the settings in the script:
