@@ -11,7 +11,7 @@ The google chrome headless modes makes it very easy with the login system and th
 
 # SETUP
 * install python
-* install google chrome
+* install [google chrome](https://www.chromium.org/getting-involved/download-chromium)
 * install the google chrome [ChromeDriver](http://chromedriver.chromium.org/getting-started)
 * install [selenium](https://github.com/SeleniumHQ/selenium) `pip install selenium`
 
