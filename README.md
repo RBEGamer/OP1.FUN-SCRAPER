@@ -1,4 +1,4 @@
-# OP1FUN_SCRAPER
+# OP1.FUN SCRAPER
 Scrapes all Packages from the Op1.fun Site.
 At the time is wrote this script, there was no API so i used the google chrome headless mode to download the files.
 
