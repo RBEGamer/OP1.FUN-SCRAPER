@@ -42,5 +42,5 @@ May you can decrese the wait time in a public network.
 The following regex statements are used to find the links in the page:
 
 * `\?page\=(\d)*\">Last"` to find the last page index (line 55)
-
+* `<a class=\"pack-name parent-link\" href=\"(.)*\">(.)*<\/a` to get on each packs page, the link to the packs (line 93)
 ## TESTED MacOSX, Op1.fun 03.06.2019
