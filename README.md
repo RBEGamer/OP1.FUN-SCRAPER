@@ -37,5 +37,10 @@ For a complete download of all packages (140 pages 03.06.2019) you will need two
 May you can decrese the wait time in a public network.
 
 
+# MODIFY
+
+The following regex statements are used to find the links in the page:
+
+* `\?page\=(\d)*\">Last"` to find the last page index (line 55)
 
 ## TESTED MacOSX, Op1.fun 03.06.2019
