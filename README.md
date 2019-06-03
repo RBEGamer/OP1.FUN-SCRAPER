@@ -43,4 +43,6 @@ The following regex statements are used to find the links in the page:
 
 * `\?page\=(\d)*\">Last"` to find the last page index (line 55)
 * `<a class=\"pack-name parent-link\" href=\"(.)*\">(.)*<\/a` to get on each packs page, the link to the packs (line 93)
+
+* `elem = driver.find_element_by_class_name('download').click()` find the download button on a pack site
 ## TESTED MacOSX, Op1.fun 03.06.2019
