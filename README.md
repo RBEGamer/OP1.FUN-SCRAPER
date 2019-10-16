@@ -27,12 +27,12 @@ It updates and keep tracks of all the packs available on the op1fun website and 
 
 
 # RUN
-###Scrapper
+### Scrapper
 The script and the ChromeDriver in the same directory
 * run the chrome driver in a other Terminal `./chromedriver`
 * run `python ./src/op1fun_package_scraper.py` to start downloading
 
-###Unpacker
+### Unpacker
 Unpacks all the downloaded zip files into either drum or synth folder
 #### setup
 Assign folder path that contains all the zip files and your destination path
