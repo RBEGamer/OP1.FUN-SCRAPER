@@ -5,7 +5,7 @@ At the time is wrote this script, there was no API so i used the google chrome h
 The script scans each page on the packages page for the package links.
 In the next step the collected links will be downloaded.
 
-The google chrome headless modes makes it very easy with the login system and the downloading.
+The google chrome headless modes makes it very easy with the login into the system and downloading files.
 
 
 
@@ -48,7 +48,7 @@ prompt and enter `Y` to confirm and continue
 
 Op1.Fun hosts its files on AWS, the script waits after each download a bit to not trigger a the spam/ddos system from AWS.
 After 12 downloads there is an other delay too. That helps to prevent access errors.
-For a complete download of all packages (140 pages 03.06.2019) you will need two daysm with my delay settings.
+For a complete download of all packages (140 pages 03.06.2019) you will need two days with my delay settings.
 May you can decrese the wait time in a public network.
 
 
