@@ -18,15 +18,29 @@ The google chrome headless modes makes it very easy with the login system and th
 ## SET USERNAME/PASSWORD
 Create a account at the op1.fun site and change the settings in the script:
 
-* `line 39` change YOUR_EMAIL with your email
-* `line 42` change YOUR_PASSWORD with your password
+* `line 15` change YOUR_EMAIL with your email
+* `line 16` change YOUR_PASSWORD with your password
+
+## Keeping track
+`UPDATE_CSV = True` enables CSV capability.  
+It updates and keep tracks of all the packs available on the op1fun website and also keep track of download status. This prevents you from downloading redundant files and also the resumes if the program stops  
 
 
 # RUN
-
+###Scrapper
 The script and the ChromeDriver in the same directory
 * run the chrome driver in a other Terminal `./chromedriver`
 * run `python ./src/op1fun_package_scraper.py` to start downloading
+
+###Unpacker
+Unpacks all the downloaded zip files into either drum or synth folder
+#### setup
+Assign folder path that contains all the zip files and your destination path
+* `line 6` ZIP_FILES_PATH = "/Users/path/to/the/zip/folders/...."        
+* `line 7` UNPACK_TO = "/Users/paths/to/unpack/folder/...."  
+#### run
+run `python unpacker.py` to start unpacking
+prompt and enter `Y` to confirm and continue  
 
 
 ## NOTES
