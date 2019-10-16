@@ -23,7 +23,8 @@ Create a account at the op1.fun site and change the settings in the script:
 
 ## Keeping track
 `UPDATE_CSV = True` enables CSV capability.  
-It updates and keep tracks of all the packs available on the op1fun website and also keep track of download status. This prevents you from downloading redundant files and also the resumes if the program stops  
+It updates and keep tracks of all the packs available on the op1fun website. And keep track of every pack's download status. This prevents you from downloading redundant files.  
+It also resumes to undownloaded files if the program ever stops.
 
 
 # RUN
@@ -33,9 +34,9 @@ The script and the ChromeDriver in the same directory
 * run `python ./src/op1fun_package_scraper.py` to start downloading
 
 ### Unpacker
-Unpacks all the downloaded zip files into either drum or synth folder
+Unpacks all the downloaded zip files into more OP1 friendly folder system 
 #### setup
-Assign folder path that contains all the zip files and your destination path
+Assign folder path that contains all the zip files and also your destination path
 * `line 6` ZIP_FILES_PATH = "/Users/path/to/the/zip/folders/...."        
 * `line 7` UNPACK_TO = "/Users/paths/to/unpack/folder/...."  
 #### run
