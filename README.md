@@ -62,5 +62,5 @@ The following regex statements are used to find the links in the page:
 * `elem = driver.find_element_by_class_name('download').click()` find the download button on a pack site
 
 
-## TESTED MacOSX, Safari 13.0, Op1.fun 03.06.2019
+## TESTED MacOSX, Op1.fun 03.06.2019
 ## TESTED Ubuntu18.04, Op1.fun 17.10.2019
